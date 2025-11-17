@@ -261,7 +261,7 @@ Answer:
 # Bivariate regression: Anxiety ~ StressSurvey
 
 ```{python}
-# Bivariate regression: Anxiety ~ StressSurvey
+
 
 from statsmodels.formula.api import ols
 
