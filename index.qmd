@@ -277,7 +277,7 @@ Intercept (β₀̂): ≈ -1.5240 (see coef table in the output)
 
 Coefficient on StressSurvey (β̂): ≈ 1.0470
 
-R-squared: ≈ 0.901
+R-squared: ≈ .901
 
 Comparison to true relationship: The true model is Anxiety = 1 * Stress + 0.1 * Time. StressSurvey is a proxy for Stress (nonlinear mapping), so this bivariate regression is not estimating the true coefficients for Stress or Time. However, the coefficient ≈ 1.0470 indicates the survey proxy strongly correlates with Anxiety in a near-linear way for this dataset — but that’s partly because StressSurvey itself moves with Stress (monotonic). This bivariate fit hides the role of Time entirely (it conflates Stress and Time signals into the single StressSurvey coefficient).
 
