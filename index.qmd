@@ -271,8 +271,6 @@ print(model_q1.summary())
 
 From the statsmodels fit:
 
-
-
 Intercept (β₀̂): ≈ -1.5240 (see coef table in the output)
 
 Coefficient on StressSurvey (β̂): ≈ 1.0470
