@@ -270,7 +270,6 @@ model_q1.summary()
 
 ```
 
-From the statsmodels fit:
 
 From the statsmodels fit:
 
