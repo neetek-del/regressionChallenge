@@ -266,7 +266,7 @@ Answer:
 from statsmodels.formula.api import ols
 
 model_q1 = ols("Anxiety ~ StressSurvey", data=observDF).fit()
-model_q1.summary()
+print(model_q1.summary())
 
 ```
 
