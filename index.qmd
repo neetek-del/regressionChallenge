@@ -262,7 +262,6 @@ Answer:
 
 ```{python}
 
-
 from statsmodels.formula.api import ols
 
 model_q1 = ols("Anxiety ~ StressSurvey", data=observDF).fit()
@@ -270,8 +269,9 @@ print(model_q1.summary())
 
 ```
 
-
 From the statsmodels fit:
+
+
 
 Intercept (β₀̂): ≈ -1.5240 (see coef table in the output)
 
